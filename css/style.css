@@ -58,21 +58,23 @@
   list-style: upper-roman;  
 }
 
-#resback{
-  background-color: silver;
-}
 
 #resback h2{
-  color: rgb(204, 102, 0);
-  border: solid navy;
+  color: orange;
+  border-top: solid thick darkviolet;
+  border-bottom: solid thick darkviolet;
   box-sizing: border-box;
   width: 12.5%;
-  margin: auto; 
+  margin: 2.5% auto; 
   font-family: 'Bebas Neue', cursive;
-  
+  position: relative;
+  top: 10px;
+  background-color: gray;
 }
 #resback h3{
-   
+  border-bottom: solid darkviolet;
+  width: 10%;
+  margin: 2% auto;
 }
 
 #resback p{
