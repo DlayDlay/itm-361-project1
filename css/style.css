@@ -1,24 +1,38 @@
 nav#horznav ul{
   list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 nav#horznav ul li{
   float: left; 
-  width: 33%;
+  width: 33.33%;
 }
 
 nav#horznav ul li a{
   display: block;
-  background-color: navy;
   color: white;
   font-weight: bold;
-  text-align: center;
-  padding: 10px;
-  border: black solid 2.5px; 
+  font-family: 'Bebas Neue', cursive;
+  font-size: 225%;
+  text-align: center; 
+  overflow: hidden;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: navy;
+}
+
+nav#horznav ul li a:hover{
+  background-color: red;
+  text-decoration: underline;
+  border-radius: 20%;
 }
 
 .clear{
+  margin: 5%
   clear: both;	
 }
+
+
+
