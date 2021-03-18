@@ -38,12 +38,48 @@
   border-radius: 30%;
 }
 
+h1{
+  font-family: 'Bebas Neue', cursive;
+}
+
 .clear{
   clear: both;  
 }
 
 .centertext{
 	text-align: center;
+}
+
+/*Resume*/
+
+
+#resback{
+  background-color: silver;	
+}
+
+#resback h2{
+  color: orange;
+  border-top: solid thick darkviolet;
+  border-bottom: solid thick darkviolet;
+  box-sizing: border-box;
+  width: 12.5%;
+  margin: 2.5% auto; 
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  top: 10px;
+  background-color: gray;
+}
+#resback h3{
+  border-bottom: solid darkviolet;
+  width: 10%;
+  margin: 2% auto;
+}
+
+#resback p{
+  width: 40%;
+  margin: auto;
+  font-size: large;
+  
 }
 
 /*PB&J*/
@@ -88,40 +124,9 @@ iframe{
   background-image: url("../images/pbj.jpg");	
 }
 
-/*Resume*/
 
 
-#resback{
-  background-color: silver;	
-}
 
-#resback h2{
-  color: orange;
-  border-top: solid thick darkviolet;
-  border-bottom: solid thick darkviolet;
-  box-sizing: border-box;
-  width: 12.5%;
-  margin: 2.5% auto; 
-  font-family: 'Bebas Neue', cursive;
-  position: relative;
-  top: 10px;
-  background-color: gray;
-}
-#resback h3{
-  border-bottom: solid darkviolet;
-  width: 10%;
-  margin: 2% auto;
-}
-
-#resback p{
-  width: 40%;
-  margin: auto;
-  
-}
-
-h1{
-  font-family: 'Bebas Neue', cursive;
-}
 
 
 
