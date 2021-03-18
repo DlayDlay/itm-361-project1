@@ -1,3 +1,5 @@
+/* Navigation and general use*/
+
 #horznav ul{
   list-style-type: none;
   margin: 0;
@@ -44,20 +46,54 @@
 	text-align: center;
 }
 
+/*PB&J*/
+
+#pagetop{
+  width: 50%;
+  margin: auto;  
+}
+
+iframe{
+  height: 300px;
+  width: 50%;
+}
+
 .instructionsleft{
   position: relative;
   left: 1%;
-  float: left;
-  color: green;  
+  float: left;  
   box-sizing: border-box;
   width: 48.75%;
   margin-right: 1.25%;
+  padding: .5%;
 }
 
 .instructionsleft ul{
   list-style: upper-roman;  
 }
 
+.peanut{
+  background-color: rgb(207,155,87);
+  color: white; 
+  font-size: large;  
+}
+
+.jelly{
+  background-color: rgb(196,47,112);
+  color: white; 
+  font-size: large;  
+}
+
+#pbback{
+  background-image: url("../images/pbj.jpg");	
+}
+
+/*Resume*/
+
+
+#resback{
+  background-color: silver;	
+}
 
 #resback h2{
   color: orange;
@@ -87,10 +123,7 @@ h1{
   font-family: 'Bebas Neue', cursive;
 }
 
-iframe{
-  height: 300px;
-  width: 30%;
-}
+
 
 
 
