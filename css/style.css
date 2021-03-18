@@ -66,6 +66,8 @@ h1{
 }
 #resback h3{
   border-bottom: solid darkviolet;
+  width: 33%;
+  margin: auto;
 }
 
 #resback p{
