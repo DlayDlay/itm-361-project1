@@ -17,7 +17,7 @@
   color: white;
   background-color: navy;
   font-weight: bold;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Squada One', cursive;
   font-size: 225%;
   text-align: center; 
   overflow: hidden;
@@ -69,20 +69,22 @@ h1{
 #backblue{
   background-color: navy;
   color: white;
-  width: 700px;
+  font-size: large;
+  width: 40%;
   height: 600px;
   position: relative;
   float: left;
-  margin: auto 5%;
+  margin: auto;
 }
 
 #backred{
   background-color: red;
-  width: 700px;
+  font-size: large;
+  width: 40%;
   height: 300px;
   position: relative;
   float: right;
-  margin: auto 5%;
+  margin: auto;
 }
 
 #backgray{
@@ -92,6 +94,11 @@ h1{
   width: 800px;
   text-align: center;
   margin: auto;
+  font-size: large;
+}
+
+#homebody{
+	
 }
 
 /*Resume*/
