@@ -73,11 +73,12 @@ h1{
   
 }
 
-/*.section{
+.section{
   position: relative;
-  float: left;
-  margin: 30%;  
-}*/
+  float: left; 
+  box-sizing: border-box;
+  width: 33%;
+}
 
 /*PB&J*/
 
