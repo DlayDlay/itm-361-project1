@@ -50,6 +50,20 @@ h1{
 	text-align: center;
 }
 
+.instructionsleft{
+  position: relative;
+  left: 1%;
+  float: left;  
+  box-sizing: border-box;
+  width: 48.75%;
+  margin-right: 1.25%;
+  padding: .5%;
+}
+
+.instructionsleft ul{
+  list-style: upper-roman;  
+}
+
 /*Resume*/
 
 
@@ -105,19 +119,6 @@ iframe{
   width: 50%;
 }
 
-.instructionsleft{
-  position: relative;
-  left: 1%;
-  float: left;  
-  box-sizing: border-box;
-  width: 48.75%;
-  margin-right: 1.25%;
-  padding: .5%;
-}
-
-.instructionsleft ul{
-  list-style: upper-roman;  
-}
 
 .peanut{
   background-color: rgb(207,155,87);
