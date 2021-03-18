@@ -64,6 +64,36 @@ h1{
   list-style: upper-roman;  
 }
 
+/*Home page*/
+
+#backblue{
+  background-color: navy;
+  color: white;
+  width: 700px;
+  height: 600px;
+  position: relative;
+  float: left;
+  margin: auto 5%;
+}
+
+#backred{
+  background-color: red;
+  width: 700px;
+  height: 300px;
+  position: relative;
+  float: right;
+  margin: auto 5%;
+}
+
+#backgray{
+  background-color: gray;
+  color: orange;
+  position: relative;
+  width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
 /*Resume*/
 
 
