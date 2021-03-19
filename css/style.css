@@ -69,36 +69,38 @@ h1{
 #backblue{
   background-color: navy;
   color: white;
-  font-size: large;
   width: 40%;
   height: 600px;
   position: relative;
   float: left;
-  margin: auto;
+  margin-left: 10%;
 }
 
 #backred{
   background-color: red;
-  font-size: large;
   width: 40%;
-  height: 300px;
+  height: 600px;
   position: relative;
   float: right;
-  margin: auto;
+  margin-right: 10%;
 }
 
 #backgray{
   background-color: gray;
   color: orange;
   position: relative;
-  width: 800px;
+  width: 1000px;
   text-align: center;
   margin: auto;
-  font-size: large;
 }
 
-#homebody{
-	
+#homeback{
+	background-color: tan;
+}
+
+#homeback div{
+	font-family: arial;
+	font-size: 175%;
 }
 
 /*Resume*/
@@ -160,7 +162,7 @@ iframe{
 .peanut{
   background-color: rgb(207,155,87);
   color: white; 
-  font-size: large;  
+  font-size: large; 
 }
 
 .jelly{
