@@ -162,13 +162,13 @@ iframe{
 .peanut{
   background-color: rgb(207,155,87);
   color: white; 
-  font-size: large; 
+  font-size: 150%;
 }
 
 .jelly{
   background-color: rgb(196,47,112);
   color: white; 
-  font-size: large;  
+  font-size: 150%; 
 }
 
 #pbback{
