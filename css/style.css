@@ -145,6 +145,12 @@ div.section ul li{
   width: 33%;  
 }
 
+#contact{
+  position: relative;
+  list-style: none;
+  text-align: left;  
+  left: 44%;
+}
 /*PB&J*/
 
 #pagetop{
