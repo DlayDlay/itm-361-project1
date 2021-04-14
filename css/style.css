@@ -187,16 +187,42 @@ iframe{
   height: 100%;
 }
 
-@media screen and (min-width: 600px){
-	body{
-		background-color: red;	
+@media screen and (min-width: 600px) and (max-width: 900px){
+	section div#backblue{
+		clear: both;
+		width: 100%;
+		margin: auto;
 	}
-	
+	section div#backred{
+		clear: both;
+		width: 100%;
+		margin: auto;
+	}
+	section div#backgray{
+		clear: both;
+        width: 100%;
+        margin: auto;		
+	}
 }
 
-@media all and (min-width: 300px) and (max-width: 599){
-	section{
+@media screen and (min-width: 300px) and (max-width: 599px){
+	section div#backblue{
 		clear: both;
-		font-size: 25%;	
+		width: 100%;
+		margin: auto;
+		font-size: 20%;
+	}
+	section div#backred{
+		clear: both;
+		width: 100%;
+		margin: auto;
+		font-size: 20%;
+	}
+	section div#backgray{
+		clear: both;
+        width: 100%;
+        margin: auto;
+        font-size: 20%;		
 	}
 }
+
