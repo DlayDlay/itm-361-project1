@@ -187,7 +187,7 @@ iframe{
   height: 100%;
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px){
+@media screen and (min-width: 700px) and (max-width: 900px){
 	section div#backblue{
 		clear: both;
 		width: 100%;
@@ -205,24 +205,26 @@ iframe{
 	}
 }
 
-@media screen and (min-width: 300px) and (max-width: 599px){
+@media screen and (min-width: 300px) and (max-width: 699px){
 	section div#backblue{
 		clear: both;
 		width: 100%;
 		margin: auto;
-		font-size: 20%;
+		font-size: 100%;
+		height: 50%;
 	}
 	section div#backred{
 		clear: both;
 		width: 100%;
 		margin: auto;
-		font-size: 20%;
+		font-size: 100%;
+		height: 50%;
 	}
 	section div#backgray{
 		clear: both;
         width: 100%;
         margin: auto;
-        font-size: 20%;		
+        font-size: 100%;		
 	}
 }
 
