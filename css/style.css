@@ -181,6 +181,13 @@ iframe{
   background-image: url("../images/pbj.jpg");	
 }
 
+/*Map*/
+
+#map {
+  height: 100%;
+}
+
+
 
 
 
