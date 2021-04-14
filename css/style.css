@@ -187,6 +187,22 @@ iframe{
   height: 100%;
 }
 
+@media (min-width: 600px) and (max-width: 960){
+	section{
+		clear: both;
+		font-size: 50%;	
+	}
+}
+
+@media (min-width: 300px) and (max-width: 599){
+	section{
+		clear: both;
+		font-size: 25%;	
+	}
+}
+
+
+
 
 
 
