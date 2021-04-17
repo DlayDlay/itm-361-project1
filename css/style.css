@@ -191,6 +191,23 @@ iframe{
   top: 15%;
 }
 
+#mapback{
+  background-color: gray;
+}
+
+#maph1{
+  background-color: navy;
+  color: white;
+  font-size: 300%;
+  width: 30%;
+  margin: auto;
+  position: relative;
+  top: 10px; 
+  border-radius: 20%;
+  border: 10px;
+  border: solid thick white;  
+}
+
 @media screen and (min-width: 700px) and (max-width: 900px){
 	section div#backblue{
 		clear: both;
