@@ -43,6 +43,26 @@ function initMap() {
     infowindow2.open(map, marker2);
 	
   });
+  
+  const myLatLng3 = { lat: -73.5017041579328, lng: 4.693110236493023 };
+   
+  const marker3 = new google.maps.Marker({
+    position: myLatLng3,
+    map,
+    title: "Click Me",
+	icon: "images/question.jpg"
+  });
+  
+  const contentString3 = "Congratulations, you found the secret marker.";
+ 
+  const infowindow3 = new google.maps.InfoWindow({
+      content: contentString3,
+    });
+
+  marker3.addListener("click", () => {
+    infowindow3.open(map, marker3);
+	
+  });
 }
 
 
