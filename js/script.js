@@ -65,14 +65,15 @@ function initMap() {
   });
 }
 
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
 
 window.addEventListener('load', initMap());
 
 
 
-$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});
+
 
  
 
